@@ -32,7 +32,7 @@
           return
         }
 
-        if (event.data === 'refreshToken') {
+        if (event.data === 'refreshDoxciToken') {
           const refreshUserSession = async function () {
             // IMPORTANT: We recommend refreshing the access token server side
             const admin_access_token = await genAdminSession(CLIENT_ID, CLIENT_SECRET)
