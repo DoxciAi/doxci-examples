@@ -1,0 +1,85 @@
+{
+  "job_id": "c12b1f2a-c22c-4d06-8bfa-79b84ad787c9",
+  "scenario_id": "b5b96703-1237-493e-9538-d293d8191f5f",
+  "document_name": "Application.pdf",
+  "date_published": "2024-10-02T09:01:49.065423Z",
+  "user": {
+    "email": "christian@doxci.ai"
+  },
+  "text": [
+    {
+      "target_id": "ed9ccfc1-7dfd-49e6-9523-16723bc91218",
+      "target_name": "company_name",
+      "status": "validated",
+      "text": "Autonomi",
+      "page_num": 1
+    },
+    {
+      "target_id": "dbf26e78-6d9f-4b08-92b8-9d21b9da40e9",
+      "target_name": "company_address",
+      "status": "not_found"
+    }
+  ],
+  "number": [
+    {
+      "target_id": "d86a2005-5fc8-450f-b037-40698d7f1b70",
+      "target_name": "phone_number",
+      "status": "validated",
+      "value": 2276850054,
+      "page_num": 1
+    },
+    {
+      "target_id": "0cec6714-c250-4eb9-bb34-f6a9127f12d1",
+      "target_name": "company_years_in_business",
+      "status": "not_found"
+    }
+  ],
+  "choice": [
+    {
+      "target_id": "d2c9a966-5f1a-461f-812b-6187181bbc1f",
+      "target_name": "company_type",
+      "selection": "LLC",
+      "status": "validated",
+      "page_num": 1
+    },
+    {
+      "target_id": "e8c48b38-262e-41f1-9a41-e3d9a5a72237",
+      "target_name": "company_state",
+      "status": "not_found"
+    }
+  ],
+  "date": [
+    {
+      "target_id": "96d1822e-6fad-4d41-979c-cb479921c1ab",
+      "target_name": "company_incorporation_date",
+      "status": "validated",
+      "date": "2024-02-13",
+      "page_num": 1
+    },
+    {
+      "target_id": "96d3f3c5-8faa-4225-bcd1-929377ad243b",
+      "target_name": "company_expiration_date",
+      "status": "not_found"
+    }
+  ],
+  "boolean": [
+    {
+      "target_id": "f9c7f651-51b2-44ab-8445-e0c228ab7b44",
+      "target_name": "is_eco_friendly",
+      "status": "validated",
+      "value": true,
+      "page_num": 1
+    },
+    {
+      "target_id": "b8e906a0-f274-4fb8-a61e-8e6c14f4e8c1",
+      "target_name": "is_individual",
+      "status": "default",
+      "value": false
+    },
+    {
+      "target_id": "ff2f26d2-f814-462f-87cd-b9aa96e0a5bf",
+      "target_name": "is_hsa_eligible",
+      "status": "not_found"
+    }
+  ]
+}
