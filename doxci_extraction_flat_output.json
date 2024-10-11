@@ -1,0 +1,60 @@
+{
+  "job_id": "c12b1f2a-c22c-4d06-8bfa-79b84ad787c9",
+  "scenario_id": "b5b96703-1237-493e-9538-d293d8191f5f",
+  "document_name": "Application.pdf",
+  "date_published": "2024-10-02T09:01:49.065423Z",
+  "user": {
+    "email": "christian@doxci.ai"
+  },
+  "targets": [
+    {
+      "target_id": "a4d37a75-9f67-4a36-8176-9b9cdc98d6f3",
+      "target_name": "website",
+      "status": "validated",
+      "page_num": 1,
+      "target_type": "text",
+      "value": "www.health.com"
+    },
+    {
+      "target_id": "fba72e99-3fd5-440a-bfed-be5ef2eab6c0",
+      "target_name": "pharmacist_name",
+      "status": "not_found",
+      "target_type": "text"
+    },
+    {
+      "target_id": "cc029153-f098-41f8-b176-1ac1851688c9",
+      "target_name": "appointments",
+      "status": "validated",
+      "value": 23,
+      "page_num": 3,
+      "target_type": "number"
+    },
+    {
+      "target_id": "134b8148-f074-41f7-bdc2-dec7df22d272",
+      "target_name": "office_visits",
+      "status": "not_found",
+      "target_type": "number"
+    },
+    {
+      "target_id": "8298088d-7168-4e81-88c8-bbddf3e9968f",
+      "target_name": "has_insurance",
+      "status": "validated",
+      "value": true,
+      "page_num": 3,
+      "target_type": "boolean"
+    },
+    {
+      "target_id": "8298088d-7168-4e81-88c8-bbddf3e9968f",
+      "target_name": "has_primary_doctor",
+      "status": "default",
+      "value": false,
+      "target_type": "boolean"
+    },
+    {
+      "target_id": "98ba71a7-75c0-45f6-a5c7-736e308843c1",
+      "target_name": "sick_leave",
+      "status": "not_found",
+      "target_type": "boolean"
+    }
+  ]
+}
